@@ -1,0 +1,50 @@
+body{
+    background: white;
+}
+#Main{
+    width: 280px;
+    height: 400px;
+
+}
+#Result{
+    width: 100%;
+    height: 25px;
+}
+#Row{
+    width: 100%;
+}
+.NumberCell{
+    width: 50px;
+    height: 50px;
+    color:white;
+    background-color: #1b1b1b6b;
+    margin: 10px;
+    text-align: center;
+    float: left;
+}
+.NumberCell:hover {
+    opacity: 1;
+    background-color: #4A4A4A;
+    
+} 
+.OpratorCell{
+    width: 50px;
+    height: 50px;
+    color:white;
+    background-color: #131313;
+    margin: 10px;
+    text-align: center;
+    /* display: table-cell; 
+    vertical-align: middle;  */
+    float: left;
+    
+}
+.OpratorCell:hover {
+    opacity: 1;
+    background-color: #2882CC;
+    
+} 
+.Number{
+    height: 50%;
+    top: -50%;
+}
