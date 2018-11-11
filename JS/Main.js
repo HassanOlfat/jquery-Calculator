@@ -1,14 +1,18 @@
- var FirstVal ;
+// save number Before click on operators
+var FirstVal ;
+// save number after click on operators
  var SecondVal;
+ // save  operators Value
  var oparator;
+  // save  result Value
 var result;
 $(document).ready(function(){
-    
+    //Number Button Click
     $('.NumberCell').click(function(){
         Val= $(this).text();
         NumberClick(Val);
     })
-
+ //operators Button Click
     $('#Plus').click(function(){Plus();})
     $('#multiplied').click(function(){multiplied();})
     $('#Mines').click(function(){Mines();})
